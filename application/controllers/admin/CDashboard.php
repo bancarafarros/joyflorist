@@ -11,7 +11,7 @@ class CDashboard extends CI_Controller {
     }
     
     public function index() {
-        $data['barang'] = $this->mbarang->tampil_data()->result();
+        $data['barang'] = $this->MBarang->tampil_data()->result();
 
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');

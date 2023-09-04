@@ -11,7 +11,7 @@ class CCustomer extends CI_Controller {
     }
 
     public function tambahKeranjang($id) {
-        $barang = $this->mbarang->find($id);
+        $barang = $this->MBarang->find($id);
         
         $data = array(
             'id' => $barang->id,
@@ -60,7 +60,7 @@ class CCustomer extends CI_Controller {
     }
 
     public function detailBarang($id) {
-        $data['barang'] = $this->mbarang->detailBarang($id);
+        $data['barang'] = $this->MBarang->detailBarang($id);
         
         $this->load->view('/customer/VHeader');
         $this->load->view('/customer/VSidebar');

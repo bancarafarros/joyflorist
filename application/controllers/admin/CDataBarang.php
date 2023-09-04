@@ -11,7 +11,7 @@ class CDataBarang extends CI_Controller {
     }
     
     public function index() {
-        $data['barang'] = $this->mbarang->tampil_data()->result(); 
+        $data['barang'] = $this->MBarang->tampil_data()->result();
 
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');
@@ -130,7 +130,7 @@ class CDataBarang extends CI_Controller {
 
     public function halamanUpdate($id) {
         $where = array('id' => $id);
-        $data['barang'] = $this->mbarang->halamanUpdate($where, 'barang')->result();
+        $data['barang'] = $this->MBarang->halamanUpdate($where, 'barang')->result();
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');
         $this->load->view('/admin/VHalamanUpdate', $data);
@@ -202,7 +202,7 @@ class CDataBarang extends CI_Controller {
 	}
 
 	public function halamanDetail($id) {
-        $data['barang'] = $this->mbarang->detailBarang($id);
+        $data['barang'] = $this->MBarang->detailBarang($id);
         
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');

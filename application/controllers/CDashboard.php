@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class CDashboard extends CI_Controller {
 
 	public function index() {
-        $data['barang'] = $this->mbarang->tampil_data()->result(); 
+        $data['barang'] = $this->MBarang->tampil_data()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');

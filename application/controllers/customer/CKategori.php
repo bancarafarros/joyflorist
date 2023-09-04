@@ -3,7 +3,7 @@
 class CKategori extends CI_Controller {
     
     public function tampilDataBunga() {
-        $data['bunga'] = $this->mkategori->tampilDataBunga()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataBunga()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -12,7 +12,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataBuketBunga() {
-        $data['bunga'] = $this->mkategori->tampilDataBuketBunga()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataBuketBunga()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -21,7 +21,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataKaranganBunga() {
-        $data['bunga'] = $this->mkategori->tampilDataKaranganBunga()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataKaranganBunga()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -30,7 +30,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataHampers() {
-        $data['bunga'] = $this->mkategori->tampilDataHampers()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataHampers()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -39,7 +39,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataBuketUang() {
-        $data['bunga'] = $this->mkategori->tampilDataBuketUang()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataBuketUang()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -48,7 +48,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataBuketSnack() {
-        $data['bunga'] = $this->mkategori->tampilDataBuketSnack()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataBuketSnack()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');
@@ -57,7 +57,7 @@ class CKategori extends CI_Controller {
     }
 
     public function tampilDataCustom() {
-        $data['bunga'] = $this->mkategori->tampilDataCustom()->result(); 
+        $data['bunga'] = $this->MKategori->tampilDataCustom()->result(); 
 
         $this->load->view('customer/VHeader');
         $this->load->view('customer/VSidebar');

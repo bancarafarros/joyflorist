@@ -11,7 +11,7 @@ class CInvoice extends CI_Controller {
     }
     
     public function index() {
-        $data['invoice'] = $this->minvoice->tampilData();
+        $data['invoice'] = $this->MInvoice->tampilData();
 
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');
@@ -20,8 +20,8 @@ class CInvoice extends CI_Controller {
     }
 
     public function detailInvoice($id_invoice) {
-        $data['invoice'] = $this->minvoice->getIdInv($id_invoice);
-        $data['pesanan'] = $this->minvoice->getIdPsn($id_invoice);
+        $data['invoice'] = $this->MInvoice->getIdInv($id_invoice);
+        $data['pesanan'] = $this->MInvoice->getIdPsn($id_invoice);
 
         $this->load->view('/admin/VHeader');
         $this->load->view('/admin/VSidebar');
