@@ -1,6 +1,17 @@
 <?php
 
 class CAuth extends CI_Controller {
+    public function __construct() {
+        parent::__construct();
+
+        if ($this->session->userdata('role_id') == '1') {
+            redirect(base_url('admin/CDashboard'));
+        
+        } else if ($this->session->userdata('role_id') == '2') {
+            redirect(base_url('CDashboard'));
+        }
+    }
+    
     public function index() {
         $this->load->view('VLogin');
     }
