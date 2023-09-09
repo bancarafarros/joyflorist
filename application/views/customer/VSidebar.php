@@ -18,7 +18,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item <?php echo $this->uri->segment(1) == 'CDashboard' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('CDashboard') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -32,32 +32,32 @@
                 Kategori
             </div>
 
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(3) == 'tampilDataBuketBunga' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('/customer/CKategori/tampilDataBuketBunga') ?>">
                     <i class="fas fa-spa"></i>
                     <span>Buket Bunga</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(3) == 'tampilDataKaranganBunga' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('/customer/CKategori/tampilDataKaranganBunga') ?>">
                     <i class="fab fa-flipboard"></i>
                     <span>Karangan Bunga</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(3) == 'tampilDataHampers' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('/customer/CKategori/tampilDataHampers') ?>">
                     <i class="fas fa-box-open"></i>
                     <span>Hampers</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(3) == 'tampilDataBuketUang' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('/customer/CKategori/tampilDataBuketUang') ?>">
                     <i class="fas fa-funnel-dollar"></i>
                     <span>Buket Uang</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(3) == 'tampilDataBuketSnack' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('/customer/CKategori/tampilDataBuketSnack') ?>">
                     <i class="fas fa-cookie-bite"></i>
                     <span>Buket Snack</span></a>
