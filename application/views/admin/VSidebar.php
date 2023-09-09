@@ -18,20 +18,20 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item <?php echo $this->uri->segment(2) == 'CDashboard' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('admin/CDashboard')?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(2) == 'CDataBarang' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('admin/CDataBarang')?>">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Data Barang</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item <?php echo $this->uri->segment(2) == 'CInvoice' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?php echo base_url('admin/CInvoice')?>">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Invoices</span></a>
