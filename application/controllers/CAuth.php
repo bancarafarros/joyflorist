@@ -15,7 +15,6 @@ class CAuth extends CI_Controller {
         } else {
             $this->load->view('VLogin');
         }
-
     }
 
     public function login() {
