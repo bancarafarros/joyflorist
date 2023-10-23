@@ -1,76 +1,33 @@
-# Dicoding-DevOps Engineer
+# JoyFlorist - blablabla
 
-Submission Menjadi Linux System Administrator - Kelas Proyek Shell Scripting
+Portofolio xxx
 
-## 🚀 Deskripsi Kelas
+## 🚀 Deskripsi
 
-Kelas Proyek Shell Scripting <br>
-Disusun oleh: Dicoding Indonesia <br>
-Level: Menengah
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/95717485/225231893-e59de44d-0d3e-4e79-971b-a4d494565a74.png" alt="Dicoding AWS">
-</div>
-
-<br>
+CodeIgniter 3 <br>
+PHP 7.1 <br>
+Bootstrap 4 <br>
 
 ---
 
 Tata cara menjalankan project:
 
-1. Buat file bash scrip
+1. Clone repositry berikut
 
 ```
-touch script-adzkiaadi_dicoding.sh
+git clone https://github.com/bancarafarros/joyflorist
 ```
 
-2. Edit file bash scrip
+2. Import database yang sudah disediakan dalam repositori
+
+3. Nyalakan local server
+
+4. Login dengan menggunakan username dan password yang sudah disediakan
 
 ```
-nano script-adzkiaadi_dicoding.sh
-```
+username: kixanax13
+password: meleaxahayy
 
-3. Salin Scrip berikut :
-
-```
-#Proyek Shell Scripting by adzkiaadi
-
-#!/bin/bash
-
-#Menggunakan perulangan while supaya semua perintah pada berkas script berjalan terus tanpa henti.
-#Syntax while (open)
-while true
-do
-
-#Menampilkan ukuran memory pada sistem dalam satuan megabytes.
-echo ""
-free --mega
-echo ""
-#Syntax untuk menjeda
-sleep 3s
-
-#Menampilkan penggunaan ruang disk pada filesystem dalam satuan gigabytes.
-echo ""
-df -h -BG
-echo ""
-#Syntax untuk menjeda
-sleep 3s
-
-#Menampilkan penggunaan ruang disk pada filesystem hanya untuk kolom Filesystem dan Use% (ditampilkan juga nama kolomnya) serta tanpa menyertakan tmpfs.
-echo ""
-df -h --output='source','pcent' -x tmpfs
-echo ""
-#Syntax untuk menjeda
-sleep 1m
-
-#Syntax while (close)
-done
-```
-
-4. Beri Hak Akses Execute pada file Bash Scrip
-
-```
-chmod +x script-adzkiaadi_dicoding.sh
 ```
 
 5. Coba Jalankan File Bash Scrip
