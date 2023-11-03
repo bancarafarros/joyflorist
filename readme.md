@@ -17,10 +17,10 @@ https://joyflorist.000webhostapp.com/
 
 2. Melakukan login dengan salah satu akun di bawah ini
 ```
-| Username |Password|Role |
-|----------|--------|-----|
-| meledax  |ahayy   |Admin|
-| prapp    |uhuyy   |User |
+| Username | Password |  Role  |
+|----------|----------|--------|
+| meledax  | ahayy    | Admin  |
+| prapp    | uhuyy    | User   |
 ```
 
 3. Selamat, Anda sudah bisa menggunakan sistem informasi katalog online toko bunga!.
