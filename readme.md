@@ -1,55 +1,26 @@
-# JoyFlorist - blablabla
+# JoyFlorist - Katalog Online Toko Bunga JoyFlorist
 
-Portofolio xxx
-
-## 🚀 Deskripsi
+## 🚀 Tech Stack
 
 CodeIgniter 3 <br>
-PHP 7.1 <br>
+PHP 7.4 <br>
 Bootstrap 4 <br>
 
 ---
 
-Tata cara menjalankan project:
+Tata cara mengakses project:
 
-1. Clone repositry berikut
-
+1. Mengunjungi website di bawah ini
 ```
-git clone https://github.com/bancarafarros/joyflorist
-```
-
-2. Import database yang sudah disediakan dalam repositori
-
-3. Nyalakan local server
-
-4. Login dengan menggunakan username dan password yang sudah disediakan
-
-```
-username: kixanax13
-password: meleaxahayy
-
+https://joyflorist.000webhostapp.com/
 ```
 
-5. Coba Jalankan File Bash Scrip
-
+2. Melakukan login dengan salah satu akun di bawah ini
 ```
-./script-adzkiaadi_dicoding.sh
-```
-
-6. Buat file txt untuk menampung History
-
-```
-touch history-adzkiaadi_dicoding.txt
+| Username |Password|Role |
+|----------|--------|-----|
+| meledax  |ahayy   |Admin|
+| prapp    |uhuyy   |User |
 ```
 
-7. Jalankan syntax berikut untuk mendapatkan History
-
-```
-history >> history-adzkiaadi_dicoding.txt
-```
-
-8. Langkah terakhir Zip 2 File yang sudah kita buat dan config sebelumnya
-
-```
-zip submission1-linux-adzkiaadi_dicoding.zip script-adzkiaadi_dicoding.sh history-adzkiaadi_dicoding.txt
-```
+3. Selamat, Anda sudah bisa menggunakan sistem informasi katalog online toko bunga!.
